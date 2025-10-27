@@ -1,6 +1,6 @@
 # Project name：
-PopLoop
-Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
+-PopLoop
+-Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -15,42 +15,42 @@ Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDd
 * [Contact](#contact)
 
 ## General Information
-*This project is a short, section-based pop composition made in EarSketch with Python.
-*The reason I make pop music is because I greatly admire pop singer Taylor Swift and I am also a fan of pop music.
-*To gain a deeper understanding of the components of popular music.
+-This project is a short, section-based pop composition made in EarSketch with Python.
+-The reason I make pop music is because I greatly admire pop singer Taylor Swift and I am also a fan of pop music.
+-To gain a deeper understanding of the components of popular music.
 
 ## Technologies Used 
-*EarSketch (web)
-*Python (EarSketch API)
-*EarSketch sound packs: AK_UNDOG, RD, IRCA, COMMON, JWOLF, Y01, DUBSTEP, CIARA, OS
+-EarSketch (web)
+-Python (EarSketch API)
+-EarSketch sound packs: AK_UNDOG, RD, IRCA, COMMON, JWOLF, Y01, DUBSTEP, CIARA, OS
 
 ## Features
-*Sectioned flow: A (build), B (main groove + variations), C (lift/outro)
-*Layered textures: bass, shakers, acoustic guitars, pads, FX risers
-*Volume shaping: gentle fades and emphasis moments via setEffect
-*Quick fills: one-line makeBeat pattern for pre-drop interest
+-Sectioned flow: A (build), B (main groove + variations), C (lift/outro)
+-Layered textures: bass, shakers, acoustic guitars, pads, FX risers
+-Volume shaping: gentle fades and emphasis moments via setEffect
+-Quick fills: one-line makeBeat pattern for pre-drop interest
 
 ## Screenshots
 <img width="1510" height="798" alt="截屏2025-10-27 13 28 36" src="https://github.com/user-attachments/assets/16561806-762c-4588-b397-f1a9a4da3510" />
 
 ## Setup
-*Requirements
-*Modern browser (Chrome/Edge/Firefox)
-*Free account at https://earsketch.gatech.edu/
+*Requirements：
+-Modern browser (Chrome/Edge/Firefox)
+-Free account at https://earsketch.gatech.edu/
 
-*Install / Start
-*Open earsketch → Start Coding → Python
-*Create a new account
-*Click Run → Play
-*Use Share to generate a live demo link
+Install / Start：
+-Open earsketch → Start Coding → Python
+-Create a new account
+-Click Run → Play
+-Use Share to generate a live demo link
 
 ## Usage
-*Ways to personalize 
-*Tune the tempo in setTempo(100) for different vibes (90 = mellow, 120 = energetic).
-*Swap any item in the sounds[...] list to change tone and groove.
-*Move/resize sections by editing fitMedia(..., startBar, endBar).
-*Increase or decrease the volume with setEffect(..., VOLUME, GAIN, ...).
-*Rewrite the fill pattern (fillA) to set up your favorite beat.
+-Ways to personalize 
+-Tune the tempo in setTempo(100) for different vibes (90 = mellow, 120 = energetic).
+-Swap any item in the sounds[...] list to change tone and groove.
+-Move/resize sections by editing fitMedia(..., startBar, endBar).
+-Increase or decrease the volume with setEffect(..., VOLUME, GAIN, ...).
+-Write the fill pattern (fillA) to set up your favorite beat.
 
 from earsketch import *
 
@@ -126,25 +126,25 @@ makeBeat(AK_UNDOG_PERC_HATS_4, 3, 56, fillA )
 finish()
 
 *Export
-*In EarSketch: Export → choose MP3/WAV.
+-In EarSketch: Export → choose MP3/WAV.
 
 ## Project Status
-*In progress — refining transitions, testing alternate bridges/outs.
+-In progress — refining transitions, testing alternate bridges/outs.
 
 ## Room for Improvement
-*For sections B and C, improve the bass parts by reducing their volume.
+-For sections B and C, improve the bass parts by reducing their volume.
 
 *To Do
-*Randomize fill patterns for subtle variation
-*Offer multiple tempo presets (90 / 110 / 128 BPM)
+-Randomize fill patterns for subtle variation
+-Offer multiple tempo presets (90 / 110 / 128 BPM)
 
 ## Acknowledgements
-*Built with EarSketch and its amazing sound library
-*Creative spark: I make pop music because I love Taylor Swift
-*Thanks to open educational resources and classmates who gave feedback
+-Built with EarSketch and its amazing sound library
+-Creative spark: I make pop music because I love Taylor Swift
+-Thanks to open educational resources and classmates who gave feedback
 
 ## Contact
-*Author: Kexin Chen
-*Email: kexin.chen@student.uts.edu.au
-*GitHub: @Tina-Chen26
-*Project Link: https://earsketch.gatech.edu/earsketch2/ OR https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
+-Author: Kexin Chen
+-Email: kexin.chen@student.uts.edu.au
+-GitHub: @Tina-Chen26
+-Project Link: https://earsketch.gatech.edu/earsketch2/ OR https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
