@@ -3,7 +3,7 @@ from earsketch import *
 setTempo(100)
 
 # Music
-sounds = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+sounds = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 sounds [0] = AK_UNDOG_BASS_2
 sounds [1] = AK_UNDOG_PERC_SHAKER_1
 sounds [2] = AK_UNDOG_ACOUSTIC_GUITAR_3
@@ -20,7 +20,7 @@ sounds [12] = CIARA_SET_KICK_2
 sounds [13] = Y01_CRASH_1
 sounds [14] = DUBSTEP_DRUMLOOP_MAIN_001
 sounds [15] = DUBSTEP_PAD_001
-
+sounds [16] = AK_UNDOG_PERC_CYMB_1
 
 # Section A
 fitMedia(sounds[0],1,1,17)
@@ -48,6 +48,8 @@ fitMedia(sounds[13],2,53,54)
 fitMedia(sounds[7],3,57,80)
 fitMedia(sounds[14],4,61,80)
 fitMedia(sounds[15],5,65,80)
+fitMedia(sounds[16],1,73,75)
+fitMedia(sounds[16],1,77,79)
 
 # Fade in/Fade out
 setEffect(0, VOLUME, GAIN, -5, 1, 1, 33)
@@ -65,7 +67,6 @@ setEffect(0, DISTORTION, DISTO_GAIN, 5, 2)
 #Fills
 fillA="0---0---0-0-0-0-0"
 makeBeat(AK_UNDOG_PERC_HATS_4, 3, 56, fillA )
-
 
 
 finish()
