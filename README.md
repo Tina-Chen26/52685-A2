@@ -52,6 +52,7 @@ Install / Start：
 - Increase or decrease the volume with setEffect(..., VOLUME, GAIN, ...).
 - Write the fill pattern (fillA) to set up your favorite beat.
 
+- Here is my code
 from earsketch import *
 
 setTempo(100)
@@ -76,27 +77,27 @@ setTempo(100)
 - sounds [15] = DUBSTEP_PAD_001
 - sounds [16] = AK_UNDOG_PERC_CYMB_1
 
-# Section A
+#Section A
 - fitMedia(sounds[0],1,1,17)
 - fitMedia(sounds[1],2,2,17)
 - fitMedia(sounds[2],3,4,16)
 - fitMedia(sounds[3],4,8,16)
 - fitMedia(sounds[9],5,25,29)
 
-# Section B
+#Section B
 - fitMedia(sounds[0],1,17,33)
 - fitMedia(sounds[3],2,17,33)
-fitMedia(sounds[5],3,19,33)
-fitMedia(sounds[6],3,17.5,19)
-fitMedia(sounds[7],4,21,55)
-fitMedia(sounds[8],4,20,21.5)
-fitMedia(sounds[10],3,37,55)
-fitMedia(sounds[11],3,34,37)
-fitMedia(sounds[12],5,39,55)
-fitMedia(sounds[13],2,45,46)
-fitMedia(sounds[13],2,49,50)
-fitMedia(sounds[13],2,41,42)
-fitMedia(sounds[13],2,53,54)
+- fitMedia(sounds[5],3,19,33)
+- fitMedia(sounds[6],3,17.5,19)
+- fitMedia(sounds[7],4,21,55)
+- fitMedia(sounds[8],4,20,21.5)
+- fitMedia(sounds[10],3,37,55)
+- fitMedia(sounds[11],3,34,37)
+- fitMedia(sounds[12],5,39,55)
+- fitMedia(sounds[13],2,45,46)
+- fitMedia(sounds[13],2,49,50)
+- fitMedia(sounds[13],2,41,42)
+- fitMedia(sounds[13],2,53,54)
 
 #Section C
 - fitMedia(sounds[7],3,57,80)
@@ -105,7 +106,7 @@ fitMedia(sounds[13],2,53,54)
 - fitMedia(sounds[16],1,73,75)
 - fitMedia(sounds[16],1,77,79)
 
-# Fade in/Fade out
+#Fade in/Fade out
 - setEffect(0, VOLUME, GAIN, -5, 1, 1, 33)
 - setEffect(3, VOLUME, GAIN, -20, 8, 0, 17)
 - setEffect(7, VOLUME, GAIN, 1, 48, -10, 53)
