@@ -1,6 +1,6 @@
 # Project name：
--PopLoop
--Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
+- PopLoop
+- Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -15,9 +15,9 @@
 * [Contact](#contact)
 
 ## General Information
--This project is a short, section-based pop composition made in EarSketch with Python.
--The reason I make pop music is because I greatly admire pop singer Taylor Swift and I am also a fan of pop music.
--To gain a deeper understanding of the components of popular music.
+- This project is a short, section-based pop composition made in EarSketch with Python.
+- The reason I make pop music is because I greatly admire pop singer Taylor Swift and I am also a fan of pop music.
+- To gain a deeper understanding of the components of popular music.
 
 ## Technologies Used 
 -EarSketch (web)
