@@ -1,5 +1,5 @@
 # Project name：
-- PopLoop
+- Pop Music
 - Live Demo：https://earsketch.gatech.edu/earsketch2/?sharing=i40iYxUfEAK0A0c8cDdjbA
 
 ## Table of Contents
